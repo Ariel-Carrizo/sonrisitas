@@ -11,7 +11,7 @@ body {
 .dark-mode {
   background-color: black;
   color: white;
-  background-image: url(/assets/wallpapertip_cute-moving-wallpapers_382658.jpg);
+  background-image: url(./assets/wallpapertip_cute-moving-wallpapers_382658.jpg);
   background-repeat: none;
   background-position: center;
   background-size: 100%;
@@ -19,7 +19,7 @@ body {
 .light-mode {
   background-color: white;
   color: black;
-  background-image: url(/assets/fondo_dia.jpg);
+  background-image: url(./assets/fondo_dia.jpg);
   background-repeat: none;
   background-position: center;
   background-size: 100%;
@@ -108,4 +108,29 @@ align-self: center;
 
 /* footer de la pagina
 
+/* media queries*/
+
+@media screen and (max-width: 600px) {
+  .header{
+    background-color: whitesmoke;
+    opacity: 90%;
+    height: 5rem;
+    position: fixed;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 100;
+    }
+    .logo{
+      padding-top: 1rem;
+      height: 4rem;
+      margin: 0 auto;
+      align-items: center;
+      position: relative;
+    }
+    .personaje{
+      background-color: transparent;
+      border: none;
+      width: 10%;
+    }
+}
 
