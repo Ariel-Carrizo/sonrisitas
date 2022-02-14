@@ -1,0 +1,110 @@
+* {
+    cursor: url(./assets/cursor_normal.png), auto;
+  }
+  
+  body {
+    background-image: url(./assets/vecteezy_cute-seamless-pattern-for-kids-sky-background-with-rainbow_3721254.jpg);
+    background-repeat: none;
+    color: black;
+    font-size: 20px;
+  }
+  .dark-mode {
+    background-color: black;
+    color: white;
+    background-image: url(./assets/wallpapertip_cute-moving-wallpapers_382658.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: 100%;
+  }
+  .light-mode {
+    background-color: white;
+    color: black;
+    background-image: url(./assets/fondo_dia.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: 100%;
+  }
+  
+  .contenedor{
+      display: flex;
+      width: 300px;
+      margin: 0 auto;
+      padding: 0px;
+      border: none;
+      background-color: transparent;
+      text-align: center;
+  }
+  
+  .contenedor img{
+      max-width: 100%;
+      float: center;
+      width: 100%;
+      background-color: transparent;
+      border: none;
+  }
+  
+  .contenedor img:hover {
+      transform: scale(1.2);
+  }    
+  
+  .tiempo{
+      background-color: transparent;
+      border: none;
+  }
+  
+  .header{
+  background-color: whitesmoke;
+  opacity: 90%;
+  height: 9rem;
+  position: fixed;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 100;
+  }
+  
+  .logo{
+    padding-top: 1rem;
+    height: 7rem;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+  }
+  
+  .posicion{
+  display: inline-block;
+    position: relative;
+  padding-top: 10rem;
+  z-index: -100;
+  }
+  
+  .personaje{
+    background-color: transparent;
+    border: none;
+  }
+  
+  .personaje img:hover {
+    transform: scale(1.2);
+  }
+  
+  /* footer de la pagina */
+  .footer{
+  position: relative;
+  height: 110px;
+  background-color: transparent;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 100;
+  padding-top: 2rem;
+  
+  
+  }
+  
+  .logoFooter{
+  display: flex;
+  height: 110px;
+  margin: 0 auto;
+  align-self: center;
+  }
+  
+  /* footer de la pagina
+  
