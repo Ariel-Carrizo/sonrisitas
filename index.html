@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8" /> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0" /> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="FaviconIcon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Butterfly+Kids">
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+
+    
+    <title>¡Sonrisitas!</title> 
+</head> 
+    <body>
+        <a name="top"></a> 
+        <center>
+<!--Header de la pagina-->
+        <header class="header">
+        <img class="logo" src="./assets/sonrisitas_logo.png" alt="logo de empresa"> 
+        </header>
+<!--Header de la pagina-->
+        <div class="posicion">
+        <img src= "assets/hipo_cepillo.png" width="350px" />
+        </div>
+        <div class="website-counter"></div>
+        <button id="reset" class="info">¡Ya compre un cepillo nuevo!</button>
+        <div>
+            <button id="nombre" class="info">Ingresa tu nombre</button>
+        </div>
+        <div>
+            <button id="edad" class="info">Ingresa tu edad</button>
+        </div>
+        <h3>¿Recien nos levantamos o estamos por ir a dormir?</h3>
+        </center>
+        <div class="contenedor">
+            <button class="tiempo" id="dia"> <img src="./assets/dia.png" alt="hipopotamo de dia"> </button>
+            <button class="tiempo" id="noche"> <img src="./assets/noche.png" alt="hipopotamo de noche"> </button>
+        </div>
+        <center>
+            <h3>Vamos a seleccionar a un personaje que te acompañará</h3>
+            <div class="contenedor">
+            <button id="pipo" class="pipo"> <img src="./assets/hipo_azul.png"></button></button>
+            <button id="pipa" class="pipa"> <img src="./assets/hipo_rosado.png"></button></button>
+            <button id="pepe" class="pepe"> <img src="./assets/hipo_verde.png"> </button>
+            <button id="pepo" class="pepo"> <img src="./assets/hipo_gris.png"> </button>
+        </div>
+        </center>
+        <center>
+        <h3>¡Estamos listos para comenzar! Leemos las instrucciones y cuando estemos listos hacemos click en el boton de CEPILLAR. Cuando escuches el ruido de ¡BOING! significa que completaste esa parte del lavado. Hace click en la foto para avanzar y luego de leer hace click en cepillar para lavar la proxima parte por 30 segundos.</h3>    
+        
+            <img src="./assets/lavado_dientes-02.png" width="250px" onclick="cambiar(this);">
+            <div class="wrap">
+                    <button id="start">¡Cepillar!</button>
+                </div>
+                <br>
+                <div id="countdown">
+                <div id="countdown-number">30
+                </div>
+                </div>
+            </div>
+        <audio id="timeout_audio"></audio>
+        </center>     
+
+<!--Footer de la pagina-->
+       <footer class="footer">
+        <center>
+        <a href="#top" class="logoFooter"> <img src="./assets/sonrisitas_logo_footer.png" alt="logo footer"></a>
+        </center>
+         </footer>
+<!--Footer de la pagina-->
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>        
+        <script src="./script.js"></script>      
+    </body> 
+</html>
