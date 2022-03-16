@@ -382,9 +382,14 @@ display: flex;
 
 /* footer de la pagina
 
+/*formulario*/
+.formu{
+  background-color: #008cba;
+  color: whitesmoke;
+  height: 2rem;
+  vertical-align: middle;
 
-/*botones*/
-
+}
 
 
 /*media queries*/
